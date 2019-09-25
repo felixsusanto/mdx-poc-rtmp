@@ -1,7 +1,9 @@
-import React from 'react';
+import React from "react";
 import logo from './logo.svg';
 import './App.css';
+import MdxCms from "./components/MdxCms";
 
+// const Content = lazy(() => importMDX("./Content.mdx"));
 function App() {
   return (
     <div className="App">
@@ -10,6 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <MdxCms />
         <a
           className="App-link"
           href="https://reactjs.org"
